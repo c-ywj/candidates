@@ -40,6 +40,10 @@ def qualified_candidates(candidates)
   return qualified_candidates
 end
 
+def ordered_by_qualifications(candidates)
+  candidates.sort { |can_a, can_b| [can_b[:years_of_experience],can_b[:github_points]] <=> [can_a[:years_of_experience],can_a[:github_points]]}
+end
+
 # More methods will go below
 # class Foo
 

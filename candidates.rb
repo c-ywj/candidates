@@ -58,3 +58,18 @@ require 'active_support/all'
     age: 16
   },
 ]
+
+# class Candidate
+
+#   def initialize(data)
+
+#     attr_reader :id, :years_of_experience, :github_points, :languages, :date_applied, :age
+
+#     @id = date[:id]
+#     @years_of_experience = data[:years_of_experience]
+#     @github_points = data[:github_points]
+#     @languages = data[:languages]
+#     @date_applied = data[:date_applied]
+#     @age = [:age]
+#   end
+# end
